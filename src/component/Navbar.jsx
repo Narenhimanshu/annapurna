@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const [showFeature, setShowFeature] = useState(false);
   return (
-    <div className="h-screen  w-full bg-[url(./him.jpg)] bg-cover outline-none bg-center p-0  ">
+    <div className="h-screen  w-full bg-[url(/him.jpg)] bg-cover outline-none bg-center p-0  ">
       <div className=" h-17 text-white flex justify-between items-center font-sans ">
         <img
           src="./logo.png"
@@ -98,7 +98,7 @@ const Navbar = () => {
               <div className="flex  justify-center  items-center h-[41px] rounded-lg   w-full border  cursor-pointer gap-1.5">
                 <img
                   className="h-[20px]"
-                  src="https://logos-world.net/wp-content/uploads/2020/09/Google-Symbol.png"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlh1Kyfo9hJplmkiOKcHD9XcpUvlJaZrh5ZA&s"
                   alt="Google"
                 />
                 <p>Sign in with Google</p>
@@ -184,7 +184,7 @@ const Navbar = () => {
               <div className="flex  justify-center  items-center h-[41px] rounded-lg   w-full border  cursor-pointer gap-1.5">
                 <img
                   className="h-[20px]"
-                  src="https://logos-world.net/wp-content/uploads/2020/09/Google-Symbol.png"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlh1Kyfo9hJplmkiOKcHD9XcpUvlJaZrh5ZA&s"
                   alt="Google"
                 />
                 <p>Sign in with Google</p>

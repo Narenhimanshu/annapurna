@@ -132,7 +132,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <div className="grid grid-cols-2 md:grid-cols-4 bg-slate-900  gap-3">
+      <div className="grid grid-cols-3 md:grid-cols-4 bg-slate-900  gap-3">
         {
           foods.map((food)=>(
             <FoodCart
