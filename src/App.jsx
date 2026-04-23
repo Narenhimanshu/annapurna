@@ -87,13 +87,7 @@ const foods=[
     rating:2.2,
      price:150
   },
-  // {
-  //   id:13,
-  //   foodName:"Rajma-Chawal",
-  //   imageUrl:"./Rajma-Chawal2.jpg",
-  //   rating:3.9,
-  //   price:230
-  // },
+
 
 ];
 
@@ -132,7 +126,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <div className="grid grid-cols-3 md:grid-cols-4 bg-slate-900  gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-4 bg-slate-900  md:gap-3 ">
         {
           foods.map((food)=>(
             <FoodCart
